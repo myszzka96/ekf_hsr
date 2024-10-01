@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<launch>
+
+<!-- setting arguments -->
+
+<!-- robot urdf -->
+  <param name="robot_description" command="$(find xacro)/xacro '$(find hsrb_description)/robots/hsrb4s.urdf.xacro'" />
+    
+<!-- TODO: robot_state_publisher -->    
+
+
+<!-- TODO: bag playback -->
+
+
+
+<!-- TODO: ekf node -->
+
+
+
+<!-- TODO: rviz visualization -->
+  
+
+</launch>
