@@ -11,7 +11,9 @@ from std_msgs.msg import String
 from visualization_msgs.msg import Marker, MarkerArray
 
 from rospkg import RosPack; rp = RosPack()
-repo_path = rp.get_path('ekf_hsr')
+package_name = os.path.dirname(os.path.dirname(__file__))
+repo_path = rp.get_path(package_name)
+
 
 sys.path.append(repo_path)
 
